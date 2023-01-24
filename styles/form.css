@@ -1,0 +1,116 @@
+@charset "UTF-8";
+  
+body{
+margin: 0;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+flex-wrap: wrap;
+font-family: sans-serif;
+background-color: #290742;
+align-items: center;
+}
+.main{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    
+}
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+h1{
+    justify-items: center;
+}
+input{
+    height: 30px;
+    justify-items: flex-end;
+    margin-top: 15px;
+    border-right: none;
+    padding-right: 30px;
+}
+
+.home{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.Sobre{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.Contato{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #bc5eff;
+    
+}
+   
+ .button{
+    background-color: #910eee;
+    margin-top: 15px;
+    
+    height: 35px;
+    border-left: none;
+    border-radius: 10px;
+ }  
+    
+
+.menu{
+    justify-content: space-between;
+    margin-left:150px;
+    margin-top: 20px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e7cafc;
+    color: #0e0116;
+}
+fieldset{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}fieldset.sexo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+    
+
+    
+    fieldset#usuario {
+        background: url("../../_imagens/icone-contato.png") no-repeat 95% 95%;
+    }
+    
+    fieldset#endereco {
+        background: url("../../_imagens/icone-endereco.png") no-repeat 95% 95%;
+    }
+    
+    fieldset#mensagem {
+        background: url("../../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+    }
+    
+    fieldset#pedido {
+        background: url("../../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+    }
