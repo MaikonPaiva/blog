@@ -1,0 +1,154 @@
+body{
+margin: 0;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+flex-wrap: wrap;
+font-family: sans-serif;
+
+}
+
+
+.main{
+    margin-top: 0;
+    height: 588px;
+    background-color: #290742;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+h1{
+    justify-items: center;
+}
+input{
+    height: 30px;
+    justify-items: flex-end;
+    margin-top: 15px;
+    border-right: none;
+    padding-right: 30px;
+}
+.search{
+    margin-left: 100px;
+}
+.home{
+    
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.Sobre{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.Contato{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: #bc5eff;
+    
+}
+   
+ .button{
+    background-color: #910eee;
+    margin-top: 15px;
+    
+    height: 35px;
+    border-left: none;
+    border-radius: 10px;
+ }  
+    
+
+.menu{
+    justify-content: space-between;
+    margin-left:150px;
+    margin-top: 20px;
+
+}
+main{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  
+}
+.sectionMain{
+    width: 520px;
+    height: 380px;
+}
+.imgMain{
+    width: 520px;
+    height:380px ;
+   border-radius: 20px;
+   
+}
+.vejaMais{
+ text-decoration: none;
+ color: #ffffff;
+ display: flex; 
+ align-items: center;
+ margin-top:50px;
+}
+.articles{
+display: flex;
+flex-direction: column;
+justify-items: baseline;
+color: #3a0064;
+align-items: center;
+
+}
+.linha{
+    height: 4px;
+    background-color: aqua;
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.section-div-articles{
+display: flex;
+margin-top: 100px;
+}
+.article-div-articles{
+    display:flex;
+    margin-top: 100px;
+    align-items:center;
+}
+
+.imgPost{
+    width: 570px;
+    height: 343px;
+
+}
+.h3Post{
+
+}
+aside{
+    margin-left: 150px;
+    
+}
+h6{
+    font-family: sans-serif;
+}
+
+
+.Post-img{
+    width: 370px;
+    height: 260px;
+}
+.Post2{
+    margin-left: 20px;
+}
+.Post3{
+    margin-left: 20px;
+}
